@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane - Temporada 2</title>
+    <link rel="icon" href="/Arcane.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(
+            "Principal/Arcane.jpg"); /* Imagen de fondo temática */
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Roboto', Arial, sans-serif;
+            color: #f0e6d2; /* Color dorado claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: rgba(20, 20, 50, 0.85);
+            border-bottom: 2px solid #f0e6d2;
+        }
+
+        header img {
+            height: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: scale(1.1);
+        }
+
+        header div {
+            text-align: center;
+            max-width: 60%;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #ffcc00;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+        }
+
+        nav {
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        nav h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+            text-decoration: underline;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 90%;
+        }
+
+        nav ul li {
+            flex: 1 1 20%;
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            color: #f0e6d2;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 15px;
+            border: 2px solid #f0e6d2;
+            border-radius: 8px;
+            background: rgba(40, 40, 80, 0.8);
+            transition: all 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00;
+            color: black;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 204, 0, 0.8);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            header img {
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            nav ul li {
+                flex: 1 1 45%;
+            }
+
+            nav ul li a {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Unap.jpg" alt="Logo Arcane Izquierdo">
+        <div>
+            <h1>Arcane: Temporada 2</h1>
+            <p><strong>Estudiante:</strong> Greffa Villacorta Narciso</p>
+            <p><strong>Universidad:</strong> Universidad Nacional de la Amazonía Peruana</p>
+            <p><strong>Facultad:</strong> Ingeniería de Sistemas e Informática</p>
+            <p><strong>Curso:</strong> Informática II</p>
+            <p><strong>Docente:</strong> Ing. Luis Honorato Pita Astengo</p>
+            <p><strong>Tema:</strong> Arcane</p>
+        </div>
+        <img src="Logo Sistema.jpg" alt="Logo Derecho Piltover">
+    </header>
+    <nav>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="/Principal/Principal.html">Página Principal</a></li>
+            <li><a href="/Principal/Contenido 1/Introducción.htm">Introducción</a></li>
+            <li><a href="/Principal/Contenido 2/Temas Principales.html">Tramas Principales</a></li>
+            <li><a href="/Principal/Contenido 3/Ep 6- Mejor Capitulo.html">Mejor Episodio</a></li>
+            <li><a href="/Principal/Contenido 4/Final.html">Final y Climax</a></li>
+            <li><a href="/Fuentes/Fuentes.html">Fuentes Bibliográficas</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
